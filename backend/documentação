@@ -1,0 +1,34 @@
+Rodar yarn mkt "nome da pasta" -> cria uma pasta no diretório indicado;
+
+Rodar yarn add express -> faz a instalação da lib express no projeto;
+
+
+node_module são todas as dependencias da biblioteca que utilizamos. No caso deste projeto, a pasta contem todos os arquivos necessarios para o Express.
+      TODO O CÓDIGO EM NODE_MODULES NÃO PODE SER ALTERADO.
+
+
+* Principais metádos HTTP pra rotas:
+
+      get -> buscar alguma informação, receber. (ex -> buscar um usuario, produto ou qualquer outra info)
+      post -> criar alguma informação. (ex -> criar um usuario, produto)
+      put -> editar alguma informação. (ex -> )
+      delete -> deletar
+
+* Tipos de parâmetros:
+
+      query -> são mais utilizados no método get, são chamados via request.query. (podem ser filtros, ordenação, paginação ...)
+      route -> são utilizados exclusivamentes em put e delete, são chamados via request.route. (identificar um recurso na alteração ou remoção )
+      body -> é utilizado para dados de criação ou alteração de um registro, são chamados via resquest.body
+
+* Tipos de controller:
+
+      index -> mostra uma lista do recurso
+      show -> mostra um unico desenvolvedor
+      store -> criar 
+      update -> atualizar
+      destroy -> deletar
+
+Vamos utilizar um banco não relacional - MongoDB
+
+async -> avisa que aquela funcao pode demorar para responder
+await -> espera a api retornar para depois passar a resposta
