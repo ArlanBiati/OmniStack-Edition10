@@ -1,7 +1,5 @@
-
-<img src="./static/omnistack.png" align="center"></img>
 <h1 align="center">Semana Omnistack 10</h1>
-<p align="center">Projeto <strong>DevRadar</strong> desenvolvido durante a Omnistack da Rocketseat</p>
+<p align="center">Projeto <strong>DevRadar</strong> desenvolvido durante a 10 Edição da semana OmniStack Rocketseat</p>
 
 <p align="center">
   <a aria-label="Versão do Node" href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1">
