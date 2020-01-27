@@ -13,7 +13,7 @@ const server = http.Server(app);
 setupWebsocket(server);
 
 
-mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-cwshq.mongodb.net/week10?retryWrites=true&w=majority', { // utilizando o mongoose para fazer a conecxao node.js - mongodb
+mongoose.connect('url mongoose, { // utilizando o mongoose para fazer a conecxao node.js - mongodb
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
